@@ -134,7 +134,7 @@ Panel.propTypes = {
 
 Panel.defaultProps = {
   showExpandCollapse: true,
-  collapseByDefault: true,
+  collapseByDefault: false,
 };
 
 Panel.contextTypes = {
