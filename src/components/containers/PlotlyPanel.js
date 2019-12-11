@@ -72,7 +72,7 @@ export class Panel extends Component {
       this.setState({
         individualFoldStates: this.props.addAction
           ? newFoldStates.map((e, i) => i !== numFolds - 1)
-          : newFoldStates,
+          : newFoldStates.map((e, i) => i !== 0 ? e : false)
       });
     }
   }
