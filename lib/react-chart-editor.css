@@ -78,7 +78,7 @@
 :root {
   --env: $ENV; }
 
-:root {
+.plotly-editor--theme-provider {
   --color-white: #ffffff;
   --color-rhino-core: #2a3f5f;
   --color-rhino-dark: #506784;
